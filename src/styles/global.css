@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section-container {
+    @apply w-3/4;
+  }
+}
+.test {
+  background-color: red;
+  outline: 1px solid blue;
+}
