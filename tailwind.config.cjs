@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         light: "#f5ebe0",
-        dark: "#0a0a0a",
+        dark: "#0e0e0e",
       },
       fontFamily: {
         sans: ["Raleway", ...defaultTheme.fontFamily.sans],

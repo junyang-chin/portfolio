@@ -4,7 +4,7 @@
 
 @layer components {
   .section-container {
-    @apply w-3/4;
+    @apply w-4/5;
   }
 }
 .test {
