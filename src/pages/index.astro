@@ -3,13 +3,15 @@ import About from "../components/About.astro";
 import Hero from "../components/Hero";
 import Work from "../components/Work.astro";
 import Layout from "../layouts/Layout.astro";
+import Nav from "../layouts/Nav.astro";
 
 type Age = number;
 let age: Age = new Date().getFullYear() - 1996;
 ---
 
 <Layout title="Jun's Developer Profile">
+  <!-- <Nav /> -->
   <Hero client:idle />
-  <About />
-  <Work />
+  <!-- <About /> -->
+  <!-- <Work /> -->
 </Layout>
