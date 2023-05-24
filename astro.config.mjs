@@ -12,5 +12,5 @@ export default defineConfig({
     }),
   ],
   site: "https://junyang-chin.github.io",
-  // base: "/portfolio-site",
+  base: "/portfolio",
 });

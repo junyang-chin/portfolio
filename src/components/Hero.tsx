@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import profilePic from ".././../public/profilepic.png";
 
 const Hero = () => {
   type Taglines = Array<string>;
@@ -38,7 +39,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-wrap gap-10 sm:gap-20 justify-center">
           <img
-            src="../profilepic.png"
+            src={profilePic}
             alt="profile pic"
             width="220"
             className="shadow-imgShadowDark w-40 sm:w-56"
