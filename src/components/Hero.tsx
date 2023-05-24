@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-wrap gap-10 sm:gap-20 justify-center">
           <img
-            src="../../public/profilepic.png"
+            src="../profilepic.png"
             alt="profile pic"
             width="220"
             className="shadow-imgShadowDark w-40 sm:w-56"
