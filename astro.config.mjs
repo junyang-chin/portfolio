@@ -11,4 +11,6 @@ export default defineConfig({
       config: { applyBaseStyles: false },
     }),
   ],
+  site: "https://junyang-chin.github.io",
+  base: "/portfolio-site",
 });
