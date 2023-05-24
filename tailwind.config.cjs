@@ -13,6 +13,10 @@ module.exports = {
         sans: ["Raleway", ...defaultTheme.fontFamily.sans],
         title: ["Montserrat", "Helvetica", "sans"],
       },
+      boxShadow: {
+        imgShadowDark: "12px 12px",
+        imgShadowDarkLight: "12px 12px white",
+      },
     },
   },
   plugins: [],

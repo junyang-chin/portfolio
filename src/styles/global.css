@@ -6,6 +6,10 @@
   .section-container {
     @apply w-4/5;
   }
+
+  .section-title {
+    @apply font-title font-bold text-light text-xl bg-dark px-4;
+  }
 }
 .test {
   background-color: red;
